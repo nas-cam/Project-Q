@@ -3,8 +3,6 @@ body {
   width: 1440px;
   height: 800px;
   background: #d5e1ef;
-  font-family: Outfit;
-  font-style: normal;
 }
 .container {
   position: absolute;
@@ -26,7 +24,7 @@ img {
   left: 5%;
   right: 5%;
   top: 3.22%;
-  bottom: 38.83%;
+  bottom: 38.83%;bottom: 38.83%;
 }
 
 .text {
@@ -35,13 +33,12 @@ img {
   left: 5.56%;
   right: 5.56%;
   top: calc(50% - 57px / 2 + 36px);
-
-  font-weight: normal;
   font-size: 15px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.1875px;
-
+  font-family: Outfit;
+  font-style: normal;
   color: #7d889e;
 }
 .text-heading {
@@ -50,14 +47,14 @@ img {
   left: 0%;
   right: 0%;
   top: calc(50% - 56px / 2 - 36.5px);
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
+  line-height: 25px;
   text-align: center;
-
+  font-weight: 700;
   color: #1f314f;
+  font-family: Outfit;
+  font-style: normal;
 }
-.text-container {
+main {
   position: absolute;
   left: 5%;
   right: 5%;
